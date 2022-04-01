@@ -13,7 +13,7 @@ namespace tpmodul6_kelompok_01
         public void ReadJSON()
         {
             //baca file Json
-            String jsonString = File.ReadAllText("C:/Users/ASUS/Documents/SE4401/Semester 4/Konstruksi Perangkat Lunak/W6/TP/TP_MOD6/TP-MOD6-KPL/tpmodul6_kelompok_01/tpmodul6_kelompok_01/tp6_1_1302204092.json");
+            String jsonString = File.ReadAllText("A://Aliim/Semester 4/Konstruksi Perangkat Lunak/Minggu 6/praktikum/TP/tpmodul6_kelompok_01/tpmodul6_kelompok_01/tp6_1_1302204092.json");
 
             //Deserialize Json file menjadi objek
             dynamic mahasiswa = JsonConvert.DeserializeObject(jsonString);

@@ -26,7 +26,8 @@ namespace tpmodul6_kelompok_01
 
             DataMahasiswa1302200119.ReadJson();
 
-
+            //Data Kuliah Alim
+            KuliahMahasiswa1302200119.ReadJSON();
 
         }
     }
@@ -37,7 +38,7 @@ namespace tpmodul6_kelompok_01
         public static void ReadJson()
         {
             //Baca File Json
-            string jsonString = File.ReadAllText("C:/SEMESTER 4/KONSTRUKSI PERANGKAT LUNAK/TP_6/tp6_1_1302203122.json");
+            string jsonString = File.ReadAllText("A://Aliim/Semester 4/Konstruksi Perangkat Lunak/Minggu 6/praktikum/TP/tpmodul6_kelompok_01/tpmodul6_kelompok_01/tp6_1_1302203122.json");
 
             //Desereliase file json menjadi object
             dynamic mahasiswa = JsonConvert.DeserializeObject(jsonString);

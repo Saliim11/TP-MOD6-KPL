@@ -1,0 +1,32 @@
+{
+	"courses": [
+		{
+			"code": "123",
+			"name": "perkokian"
+		},
+		{
+			"code": "234",
+			"name": "pertanian"
+		},
+		{
+			"code": "345",
+			"name": "perkebunan"
+		},
+		{
+			"code": "456",
+			"name": "perikanan"
+		},
+		{
+			"code": "567",
+			"name": "permesinan"
+		},
+		{
+			"code": "678",
+			"name": "permainan"
+		},
+		{
+			"code": "789",
+			"name": "perternakan"
+		}
+	]
+}

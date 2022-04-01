@@ -13,7 +13,14 @@ namespace tpmodul6_kelompok_01
     {
         static void Main(string[] args)
         {
+
             DataMahasiswa1302203122.ReadJson();
+
+            DataMahasiswa_1302204116.ReadJson();
+
+            DataMahasiswa1302200119.ReadJson();
+
+
         }
     }
     class DataMahasiswa1302203122

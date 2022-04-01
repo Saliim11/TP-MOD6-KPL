@@ -14,6 +14,10 @@ namespace tpmodul6_kelompok_01
         static void Main(string[] args)
         {
 
+            DataMahasiswa_1302204092_Hazim obj1 = new DataMahasiswa_1302204092_Hazim();
+            obj1.ReadJSON();
+
+
             DataMahasiswa1302200089.ReadJson();
 
             DataMahasiswa1302203122.ReadJson();
@@ -21,6 +25,7 @@ namespace tpmodul6_kelompok_01
             DataMahasiswa_1302204116.ReadJson();
 
             DataMahasiswa1302200119.ReadJson();
+
 
 
         }
